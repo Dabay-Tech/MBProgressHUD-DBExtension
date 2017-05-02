@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86EDF4AF1EB87CE70004D179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4AE1EB87CE70004D179 /* main.m */; };
+		86EDF4B21EB87CE70004D179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4B11EB87CE70004D179 /* AppDelegate.m */; };
+		86EDF4B51EB87CE70004D179 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4B41EB87CE70004D179 /* ViewController.m */; };
+		86EDF4B81EB87CE70004D179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86EDF4B61EB87CE70004D179 /* Main.storyboard */; };
+		86EDF4BA1EB87CE70004D179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86EDF4B91EB87CE70004D179 /* Assets.xcassets */; };
+		86EDF4BD1EB87CE70004D179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86EDF4BB1EB87CE70004D179 /* LaunchScreen.storyboard */; };
+		86EDF4C81EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4C71EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoTests.m */; };
+		86EDF4D31EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4D21EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoUITests.m */; };
+		86EDF4E61EB87D190004D179 /* MBProgressHUD+DBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4E21EB87D190004D179 /* MBProgressHUD+DBExtension.m */; };
+		86EDF4E71EB87D190004D179 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86EDF4E31EB87D190004D179 /* MBProgressHUD.bundle */; };
+		86EDF4E81EB87D190004D179 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4E51EB87D190004D179 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86EDF4C41EB87CE70004D179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86EDF4A21EB87CE70004D179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86EDF4A91EB87CE70004D179;
+			remoteInfo = "MBProgressHUD-DBExtensionDemo";
+		};
+		86EDF4CF1EB87CE70004D179 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86EDF4A21EB87CE70004D179 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86EDF4A91EB87CE70004D179;
+			remoteInfo = "MBProgressHUD-DBExtensionDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86EDF4AA1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBProgressHUD-DBExtensionDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EDF4AE1EB87CE70004D179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86EDF4B01EB87CE70004D179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86EDF4B11EB87CE70004D179 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86EDF4B31EB87CE70004D179 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86EDF4B41EB87CE70004D179 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86EDF4B71EB87CE70004D179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86EDF4B91EB87CE70004D179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86EDF4BC1EB87CE70004D179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86EDF4BE1EB87CE70004D179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86EDF4C31EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MBProgressHUD-DBExtensionDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EDF4C71EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD_DBExtensionDemoTests.m; sourceTree = "<group>"; };
+		86EDF4C91EB87CE70004D179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86EDF4CE1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MBProgressHUD-DBExtensionDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EDF4D21EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD_DBExtensionDemoUITests.m; sourceTree = "<group>"; };
+		86EDF4D41EB87CE70004D179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86EDF4E11EB87D190004D179 /* MBProgressHUD+DBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+DBExtension.h"; sourceTree = "<group>"; };
+		86EDF4E21EB87D190004D179 /* MBProgressHUD+DBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+DBExtension.m"; sourceTree = "<group>"; };
+		86EDF4E31EB87D190004D179 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		86EDF4E41EB87D190004D179 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		86EDF4E51EB87D190004D179 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86EDF4A71EB87CE70004D179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EDF4C01EB87CE70004D179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EDF4CB1EB87CE70004D179 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86EDF4A11EB87CE70004D179 = {
+			isa = PBXGroup;
+			children = (
+				86EDF4AC1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo */,
+				86EDF4C61EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoTests */,
+				86EDF4D11EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoUITests */,
+				86EDF4AB1EB87CE70004D179 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86EDF4AB1EB87CE70004D179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86EDF4AA1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo.app */,
+				86EDF4C31EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoTests.xctest */,
+				86EDF4CE1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86EDF4AC1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				86EDF4E01EB87D190004D179 /* MBProgressHUD-DBExtension */,
+				86EDF4B01EB87CE70004D179 /* AppDelegate.h */,
+				86EDF4B11EB87CE70004D179 /* AppDelegate.m */,
+				86EDF4B31EB87CE70004D179 /* ViewController.h */,
+				86EDF4B41EB87CE70004D179 /* ViewController.m */,
+				86EDF4B61EB87CE70004D179 /* Main.storyboard */,
+				86EDF4B91EB87CE70004D179 /* Assets.xcassets */,
+				86EDF4BB1EB87CE70004D179 /* LaunchScreen.storyboard */,
+				86EDF4BE1EB87CE70004D179 /* Info.plist */,
+				86EDF4AD1EB87CE70004D179 /* Supporting Files */,
+			);
+			path = "MBProgressHUD-DBExtensionDemo";
+			sourceTree = "<group>";
+		};
+		86EDF4AD1EB87CE70004D179 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86EDF4AE1EB87CE70004D179 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86EDF4C61EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				86EDF4C71EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoTests.m */,
+				86EDF4C91EB87CE70004D179 /* Info.plist */,
+			);
+			path = "MBProgressHUD-DBExtensionDemoTests";
+			sourceTree = "<group>";
+		};
+		86EDF4D11EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86EDF4D21EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoUITests.m */,
+				86EDF4D41EB87CE70004D179 /* Info.plist */,
+			);
+			path = "MBProgressHUD-DBExtensionDemoUITests";
+			sourceTree = "<group>";
+		};
+		86EDF4E01EB87D190004D179 /* MBProgressHUD-DBExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86EDF4E11EB87D190004D179 /* MBProgressHUD+DBExtension.h */,
+				86EDF4E21EB87D190004D179 /* MBProgressHUD+DBExtension.m */,
+				86EDF4E31EB87D190004D179 /* MBProgressHUD.bundle */,
+				86EDF4E41EB87D190004D179 /* MBProgressHUD.h */,
+				86EDF4E51EB87D190004D179 /* MBProgressHUD.m */,
+			);
+			name = "MBProgressHUD-DBExtension";
+			path = "../../MBProgressHUD-DBExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86EDF4A91EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86EDF4D71EB87CE70004D179 /* Build configuration list for PBXNativeTarget "MBProgressHUD-DBExtensionDemo" */;
+			buildPhases = (
+				86EDF4A61EB87CE70004D179 /* Sources */,
+				86EDF4A71EB87CE70004D179 /* Frameworks */,
+				86EDF4A81EB87CE70004D179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBProgressHUD-DBExtensionDemo";
+			productName = "MBProgressHUD-DBExtensionDemo";
+			productReference = 86EDF4AA1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86EDF4C21EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86EDF4DA1EB87CE70004D179 /* Build configuration list for PBXNativeTarget "MBProgressHUD-DBExtensionDemoTests" */;
+			buildPhases = (
+				86EDF4BF1EB87CE70004D179 /* Sources */,
+				86EDF4C01EB87CE70004D179 /* Frameworks */,
+				86EDF4C11EB87CE70004D179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86EDF4C51EB87CE70004D179 /* PBXTargetDependency */,
+			);
+			name = "MBProgressHUD-DBExtensionDemoTests";
+			productName = "MBProgressHUD-DBExtensionDemoTests";
+			productReference = 86EDF4C31EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86EDF4CD1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86EDF4DD1EB87CE70004D179 /* Build configuration list for PBXNativeTarget "MBProgressHUD-DBExtensionDemoUITests" */;
+			buildPhases = (
+				86EDF4CA1EB87CE70004D179 /* Sources */,
+				86EDF4CB1EB87CE70004D179 /* Frameworks */,
+				86EDF4CC1EB87CE70004D179 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86EDF4D01EB87CE70004D179 /* PBXTargetDependency */,
+			);
+			name = "MBProgressHUD-DBExtensionDemoUITests";
+			productName = "MBProgressHUD-DBExtensionDemoUITests";
+			productReference = 86EDF4CE1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86EDF4A21EB87CE70004D179 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Dabay;
+				TargetAttributes = {
+					86EDF4A91EB87CE70004D179 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W58KGB664J;
+						ProvisioningStyle = Automatic;
+					};
+					86EDF4C21EB87CE70004D179 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W58KGB664J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86EDF4A91EB87CE70004D179;
+					};
+					86EDF4CD1EB87CE70004D179 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W58KGB664J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86EDF4A91EB87CE70004D179;
+					};
+				};
+			};
+			buildConfigurationList = 86EDF4A51EB87CE70004D179 /* Build configuration list for PBXProject "MBProgressHUD-DBExtensionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86EDF4A11EB87CE70004D179;
+			productRefGroup = 86EDF4AB1EB87CE70004D179 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86EDF4A91EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo */,
+				86EDF4C21EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoTests */,
+				86EDF4CD1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86EDF4A81EB87CE70004D179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EDF4BD1EB87CE70004D179 /* LaunchScreen.storyboard in Resources */,
+				86EDF4E71EB87D190004D179 /* MBProgressHUD.bundle in Resources */,
+				86EDF4BA1EB87CE70004D179 /* Assets.xcassets in Resources */,
+				86EDF4B81EB87CE70004D179 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EDF4C11EB87CE70004D179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EDF4CC1EB87CE70004D179 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86EDF4A61EB87CE70004D179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EDF4B51EB87CE70004D179 /* ViewController.m in Sources */,
+				86EDF4E61EB87D190004D179 /* MBProgressHUD+DBExtension.m in Sources */,
+				86EDF4E81EB87D190004D179 /* MBProgressHUD.m in Sources */,
+				86EDF4B21EB87CE70004D179 /* AppDelegate.m in Sources */,
+				86EDF4AF1EB87CE70004D179 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EDF4BF1EB87CE70004D179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EDF4C81EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86EDF4CA1EB87CE70004D179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EDF4D31EB87CE70004D179 /* MBProgressHUD_DBExtensionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86EDF4C51EB87CE70004D179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86EDF4A91EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo */;
+			targetProxy = 86EDF4C41EB87CE70004D179 /* PBXContainerItemProxy */;
+		};
+		86EDF4D01EB87CE70004D179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86EDF4A91EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo */;
+			targetProxy = 86EDF4CF1EB87CE70004D179 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86EDF4B61EB87CE70004D179 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86EDF4B71EB87CE70004D179 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86EDF4BB1EB87CE70004D179 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86EDF4BC1EB87CE70004D179 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86EDF4D51EB87CE70004D179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86EDF4D61EB87CE70004D179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86EDF4D81EB87CE70004D179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W58KGB664J;
+				INFOPLIST_FILE = "MBProgressHUD-DBExtensionDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.dabay.MBProgressHUD-DBExtensionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86EDF4D91EB87CE70004D179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W58KGB664J;
+				INFOPLIST_FILE = "MBProgressHUD-DBExtensionDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.dabay.MBProgressHUD-DBExtensionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86EDF4DB1EB87CE70004D179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W58KGB664J;
+				INFOPLIST_FILE = "MBProgressHUD-DBExtensionDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.dabay.MBProgressHUD-DBExtensionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBProgressHUD-DBExtensionDemo.app/MBProgressHUD-DBExtensionDemo";
+			};
+			name = Debug;
+		};
+		86EDF4DC1EB87CE70004D179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W58KGB664J;
+				INFOPLIST_FILE = "MBProgressHUD-DBExtensionDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.dabay.MBProgressHUD-DBExtensionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MBProgressHUD-DBExtensionDemo.app/MBProgressHUD-DBExtensionDemo";
+			};
+			name = Release;
+		};
+		86EDF4DE1EB87CE70004D179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W58KGB664J;
+				INFOPLIST_FILE = "MBProgressHUD-DBExtensionDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.dabay.MBProgressHUD-DBExtensionDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MBProgressHUD-DBExtensionDemo";
+			};
+			name = Debug;
+		};
+		86EDF4DF1EB87CE70004D179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W58KGB664J;
+				INFOPLIST_FILE = "MBProgressHUD-DBExtensionDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.dabay.MBProgressHUD-DBExtensionDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MBProgressHUD-DBExtensionDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86EDF4A51EB87CE70004D179 /* Build configuration list for PBXProject "MBProgressHUD-DBExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EDF4D51EB87CE70004D179 /* Debug */,
+				86EDF4D61EB87CE70004D179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86EDF4D71EB87CE70004D179 /* Build configuration list for PBXNativeTarget "MBProgressHUD-DBExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EDF4D81EB87CE70004D179 /* Debug */,
+				86EDF4D91EB87CE70004D179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86EDF4DA1EB87CE70004D179 /* Build configuration list for PBXNativeTarget "MBProgressHUD-DBExtensionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EDF4DB1EB87CE70004D179 /* Debug */,
+				86EDF4DC1EB87CE70004D179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86EDF4DD1EB87CE70004D179 /* Build configuration list for PBXNativeTarget "MBProgressHUD-DBExtensionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86EDF4DE1EB87CE70004D179 /* Debug */,
+				86EDF4DF1EB87CE70004D179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86EDF4A21EB87CE70004D179 /* Project object */;
+}
