@@ -21,20 +21,9 @@
     
 
     
-//    [MBProgressHUD db_showMultiLineMessage:@"MBProgressHUD-DBExtension--MBProgressHUD-DBExtension--MBProgressHUD-DBExtension"];
-    
-    
-//    [MBProgressHUD db_showSuccess:@"请求成功~~~"];
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [MBProgressHUD db_showError:@"请求失败~~~"];
-//    });
-    
     
     [MBProgressHUD db_showMessage:@""];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [MBProgressHUD hide];
-    });
     
     
     

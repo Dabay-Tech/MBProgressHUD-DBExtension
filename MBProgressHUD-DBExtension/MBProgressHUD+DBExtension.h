@@ -3,6 +3,9 @@
 #import "MBProgressHUD.h"
 
 @interface MBProgressHUD (DBExtension)
+
+
+
 + (void)db_showSuccess:(NSString *)success toView:(UIView *)view;
 + (void)db_showError:(NSString *)error toView:(UIView *)view;
 
@@ -18,7 +21,9 @@
 + (void)db_hideHUD;
 +(void)db_hideHUDAnimated:(BOOL)animated;
 
-/*可换行的hud*/
+
+
+#pragma mark - 提示内容可以换行的HUD
 
 + (void)db_showMultiLineSuccess:(NSString *)success toView:(UIView *)view;
 

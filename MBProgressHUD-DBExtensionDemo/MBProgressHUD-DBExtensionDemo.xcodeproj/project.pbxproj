@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865DB4EE1EDFB43A008F9608 /* DBLoadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DB4EC1EDFB43A008F9608 /* DBLoadingImageView.m */; };
+		865DB4EF1EDFB43A008F9608 /* loading_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 865DB4ED1EDFB43A008F9608 /* loading_bg@2x.png */; };
 		86EDF4AF1EB87CE70004D179 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4AE1EB87CE70004D179 /* main.m */; };
 		86EDF4B21EB87CE70004D179 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4B11EB87CE70004D179 /* AppDelegate.m */; };
 		86EDF4B51EB87CE70004D179 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDF4B41EB87CE70004D179 /* ViewController.m */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865DB4EB1EDFB43A008F9608 /* DBLoadingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBLoadingImageView.h; sourceTree = "<group>"; };
+		865DB4EC1EDFB43A008F9608 /* DBLoadingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoadingImageView.m; sourceTree = "<group>"; };
+		865DB4ED1EDFB43A008F9608 /* loading_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_bg@2x.png"; sourceTree = "<group>"; };
 		86EDF4AA1EB87CE70004D179 /* MBProgressHUD-DBExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBProgressHUD-DBExtensionDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EDF4AE1EB87CE70004D179 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86EDF4B01EB87CE70004D179 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -152,11 +157,14 @@
 		86EDF4E01EB87D190004D179 /* MBProgressHUD-DBExtension */ = {
 			isa = PBXGroup;
 			children = (
-				86EDF4E11EB87D190004D179 /* MBProgressHUD+DBExtension.h */,
-				86EDF4E21EB87D190004D179 /* MBProgressHUD+DBExtension.m */,
-				86EDF4E31EB87D190004D179 /* MBProgressHUD.bundle */,
 				86EDF4E41EB87D190004D179 /* MBProgressHUD.h */,
 				86EDF4E51EB87D190004D179 /* MBProgressHUD.m */,
+				865DB4EB1EDFB43A008F9608 /* DBLoadingImageView.h */,
+				865DB4EC1EDFB43A008F9608 /* DBLoadingImageView.m */,
+				86EDF4E11EB87D190004D179 /* MBProgressHUD+DBExtension.h */,
+				86EDF4E21EB87D190004D179 /* MBProgressHUD+DBExtension.m */,
+				865DB4ED1EDFB43A008F9608 /* loading_bg@2x.png */,
+				86EDF4E31EB87D190004D179 /* MBProgressHUD.bundle */,
 			);
 			name = "MBProgressHUD-DBExtension";
 			path = "../../MBProgressHUD-DBExtension";
@@ -273,6 +281,7 @@
 			files = (
 				86EDF4BD1EB87CE70004D179 /* LaunchScreen.storyboard in Resources */,
 				86EDF4E71EB87D190004D179 /* MBProgressHUD.bundle in Resources */,
+				865DB4EF1EDFB43A008F9608 /* loading_bg@2x.png in Resources */,
 				86EDF4BA1EB87CE70004D179 /* Assets.xcassets in Resources */,
 				86EDF4B81EB87CE70004D179 /* Main.storyboard in Resources */,
 			);
@@ -304,6 +313,7 @@
 				86EDF4E81EB87D190004D179 /* MBProgressHUD.m in Sources */,
 				86EDF4B21EB87CE70004D179 /* AppDelegate.m in Sources */,
 				86EDF4AF1EB87CE70004D179 /* main.m in Sources */,
+				865DB4EE1EDFB43A008F9608 /* DBLoadingImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +551,7 @@
 				86EDF4D91EB87CE70004D179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86EDF4DA1EB87CE70004D179 /* Build configuration list for PBXNativeTarget "MBProgressHUD-DBExtensionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +560,7 @@
 				86EDF4DC1EB87CE70004D179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86EDF4DD1EB87CE70004D179 /* Build configuration list for PBXNativeTarget "MBProgressHUD-DBExtensionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +569,7 @@
 				86EDF4DF1EB87CE70004D179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
